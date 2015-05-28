@@ -6,7 +6,7 @@ require_relative 'convert'
 
 def configure_proxy
   proxy_binary = BrowserMob::Proxy::Server.new(
-    'C:\Users\khanh.nguyen\Documents\GitHub\browsermob-proxy-2.0.0\bin\browsermob-proxy.bat')
+    'C:\Users\khanh.nguyen\Documents\GitHub\selenium_tips\68_load_testing\browsermob-proxy-2.0.0\bin\browsermob-proxy.bat')
   proxy_binary.start
   proxy_binary.create_proxy
 end
